@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		5A8558321CBD71C500CDEE76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8558311CBD71C500CDEE76 /* AppDelegate.swift */; };
-		5A8558341CBD71C500CDEE76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8558331CBD71C500CDEE76 /* ViewController.swift */; };
 		5A8558371CBD71C500CDEE76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8558351CBD71C500CDEE76 /* Main.storyboard */; };
 		5A8558391CBD71C500CDEE76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8558381CBD71C500CDEE76 /* Assets.xcassets */; };
 		5A85583C1CBD71C500CDEE76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A85583A1CBD71C500CDEE76 /* LaunchScreen.storyboard */; };
 		5A8558471CBD71C500CDEE76 /* JarvisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8558461CBD71C500CDEE76 /* JarvisTests.swift */; };
 		5A8558521CBD71C500CDEE76 /* JarvisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8558511CBD71C500CDEE76 /* JarvisUITests.swift */; };
+		5A85586F1CBD73DE00CDEE76 /* JARCrossFadeSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A85585F1CBD73DE00CDEE76 /* JARCrossFadeSegue.swift */; };
+		5A8558701CBD73DE00CDEE76 /* JARLocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8558601CBD73DE00CDEE76 /* JARLocalizedStrings.swift */; };
+		5A8558711CBD73DE00CDEE76 /* MessagePayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8558611CBD73DE00CDEE76 /* MessagePayload.swift */; };
+		5A8558721CBD73DE00CDEE76 /* JARTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8558621CBD73DE00CDEE76 /* JARTestHelper.swift */; };
+		5A8558731CBD73DE00CDEE76 /* JARMotionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8558641CBD73DE00CDEE76 /* JARMotionController.swift */; };
+		5A8558741CBD73DE00CDEE76 /* JARMultipeerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8558651CBD73DE00CDEE76 /* JARMultipeerController.swift */; };
+		5A8558751CBD73DE00CDEE76 /* JARBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8558671CBD73DE00CDEE76 /* JARBrowser.swift */; };
+		5A8558761CBD73DE00CDEE76 /* JARSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8558681CBD73DE00CDEE76 /* JARSession.swift */; };
+		5A8558771CBD73DE00CDEE76 /* JARBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A85586A1CBD73DE00CDEE76 /* JARBaseViewController.swift */; };
+		5A8558781CBD73DE00CDEE76 /* JARMotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A85586B1CBD73DE00CDEE76 /* JARMotionViewController.swift */; };
+		5A8558791CBD73DE00CDEE76 /* JARTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A85586C1CBD73DE00CDEE76 /* JARTouchViewController.swift */; };
+		5A85587A1CBD73DE00CDEE76 /* JARGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A85586E1CBD73DE00CDEE76 /* JARGradientView.swift */; };
+		5A85587D1CBD73F100CDEE76 /* UIColors+Jarvis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A85587C1CBD73F100CDEE76 /* UIColors+Jarvis.swift */; };
+		5A8558811CBD758300CDEE76 /* MultipeerConnectivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8558801CBD758300CDEE76 /* MultipeerConnectivityTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +49,6 @@
 /* Begin PBXFileReference section */
 		5A85582E1CBD71C500CDEE76 /* Jarvis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jarvis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8558311CBD71C500CDEE76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A8558331CBD71C500CDEE76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A8558361CBD71C500CDEE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A8558381CBD71C500CDEE76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A85583B1CBD71C500CDEE76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +59,20 @@
 		5A85584D1CBD71C500CDEE76 /* JarvisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JarvisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8558511CBD71C500CDEE76 /* JarvisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarvisUITests.swift; sourceTree = "<group>"; };
 		5A8558531CBD71C500CDEE76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A85585F1CBD73DE00CDEE76 /* JARCrossFadeSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JARCrossFadeSegue.swift; sourceTree = "<group>"; };
+		5A8558601CBD73DE00CDEE76 /* JARLocalizedStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JARLocalizedStrings.swift; sourceTree = "<group>"; };
+		5A8558611CBD73DE00CDEE76 /* MessagePayload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagePayload.swift; sourceTree = "<group>"; };
+		5A8558621CBD73DE00CDEE76 /* JARTestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JARTestHelper.swift; sourceTree = "<group>"; };
+		5A8558641CBD73DE00CDEE76 /* JARMotionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JARMotionController.swift; sourceTree = "<group>"; };
+		5A8558651CBD73DE00CDEE76 /* JARMultipeerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JARMultipeerController.swift; sourceTree = "<group>"; };
+		5A8558671CBD73DE00CDEE76 /* JARBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JARBrowser.swift; sourceTree = "<group>"; };
+		5A8558681CBD73DE00CDEE76 /* JARSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JARSession.swift; sourceTree = "<group>"; };
+		5A85586A1CBD73DE00CDEE76 /* JARBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JARBaseViewController.swift; sourceTree = "<group>"; };
+		5A85586B1CBD73DE00CDEE76 /* JARMotionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JARMotionViewController.swift; sourceTree = "<group>"; };
+		5A85586C1CBD73DE00CDEE76 /* JARTouchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JARTouchViewController.swift; sourceTree = "<group>"; };
+		5A85586E1CBD73DE00CDEE76 /* JARGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JARGradientView.swift; sourceTree = "<group>"; };
+		5A85587C1CBD73F100CDEE76 /* UIColors+Jarvis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColors+Jarvis.swift"; sourceTree = "<group>"; };
+		5A8558801CBD758300CDEE76 /* MultipeerConnectivityTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipeerConnectivityTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +124,15 @@
 			isa = PBXGroup;
 			children = (
 				5A8558311CBD71C500CDEE76 /* AppDelegate.swift */,
-				5A8558331CBD71C500CDEE76 /* ViewController.swift */,
+				5A8558661CBD73DE00CDEE76 /* Models */,
+				5A8558631CBD73DE00CDEE76 /* Model Controllers */,
+				5A85586D1CBD73DE00CDEE76 /* Views */,
+				5A8558691CBD73DE00CDEE76 /* View Controllers */,
+				5A85587B1CBD73F100CDEE76 /* Extensions */,
+				5A8558611CBD73DE00CDEE76 /* MessagePayload.swift */,
+				5A85585F1CBD73DE00CDEE76 /* JARCrossFadeSegue.swift */,
+				5A8558601CBD73DE00CDEE76 /* JARLocalizedStrings.swift */,
+				5A8558621CBD73DE00CDEE76 /* JARTestHelper.swift */,
 				5A8558351CBD71C500CDEE76 /* Main.storyboard */,
 				5A8558381CBD71C500CDEE76 /* Assets.xcassets */,
 				5A85583A1CBD71C500CDEE76 /* LaunchScreen.storyboard */,
@@ -111,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				5A8558461CBD71C500CDEE76 /* JarvisTests.swift */,
+				5A8558801CBD758300CDEE76 /* MultipeerConnectivityTests.swift */,
 				5A8558481CBD71C500CDEE76 /* Info.plist */,
 			);
 			path = JarvisTests;
@@ -123,6 +158,51 @@
 				5A8558531CBD71C500CDEE76 /* Info.plist */,
 			);
 			path = JarvisUITests;
+			sourceTree = "<group>";
+		};
+		5A8558631CBD73DE00CDEE76 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A8558641CBD73DE00CDEE76 /* JARMotionController.swift */,
+				5A8558651CBD73DE00CDEE76 /* JARMultipeerController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		5A8558661CBD73DE00CDEE76 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A8558671CBD73DE00CDEE76 /* JARBrowser.swift */,
+				5A8558681CBD73DE00CDEE76 /* JARSession.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A8558691CBD73DE00CDEE76 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A85586A1CBD73DE00CDEE76 /* JARBaseViewController.swift */,
+				5A85586B1CBD73DE00CDEE76 /* JARMotionViewController.swift */,
+				5A85586C1CBD73DE00CDEE76 /* JARTouchViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		5A85586D1CBD73DE00CDEE76 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A85586E1CBD73DE00CDEE76 /* JARGradientView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A85587B1CBD73F100CDEE76 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5A85587C1CBD73F100CDEE76 /* UIColors+Jarvis.swift */,
+			);
+			name = Extensions;
+			path = Views/Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +336,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A8558341CBD71C500CDEE76 /* ViewController.swift in Sources */,
+				5A85587D1CBD73F100CDEE76 /* UIColors+Jarvis.swift in Sources */,
+				5A8558741CBD73DE00CDEE76 /* JARMultipeerController.swift in Sources */,
+				5A8558701CBD73DE00CDEE76 /* JARLocalizedStrings.swift in Sources */,
+				5A8558731CBD73DE00CDEE76 /* JARMotionController.swift in Sources */,
+				5A8558761CBD73DE00CDEE76 /* JARSession.swift in Sources */,
+				5A8558781CBD73DE00CDEE76 /* JARMotionViewController.swift in Sources */,
+				5A85586F1CBD73DE00CDEE76 /* JARCrossFadeSegue.swift in Sources */,
+				5A8558791CBD73DE00CDEE76 /* JARTouchViewController.swift in Sources */,
+				5A8558771CBD73DE00CDEE76 /* JARBaseViewController.swift in Sources */,
+				5A8558751CBD73DE00CDEE76 /* JARBrowser.swift in Sources */,
+				5A8558721CBD73DE00CDEE76 /* JARTestHelper.swift in Sources */,
 				5A8558321CBD71C500CDEE76 /* AppDelegate.swift in Sources */,
+				5A8558711CBD73DE00CDEE76 /* MessagePayload.swift in Sources */,
+				5A85587A1CBD73DE00CDEE76 /* JARGradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A8558811CBD758300CDEE76 /* MultipeerConnectivityTests.swift in Sources */,
 				5A8558471CBD71C500CDEE76 /* JarvisTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Jarvis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = apps.yoon.Jarvis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -413,6 +507,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Jarvis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = apps.yoon.Jarvis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
